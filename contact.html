@@ -1,0 +1,175 @@
+<!-- contact page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarked</title>
+    <link rel="shortcut icon" type="image" href="./image/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #F1D4D4;">
+
+    <div class="top-navbar">
+        <div class="top-icons">
+            <i class="fa-brands fa-twitter" style="color: #F1D4D4;"></i>
+            <i class="fa-brands fa-facebook-f" style="color: #F1D4D4;"></i>
+            <i class="fa-brands fa-instagram" style="color: #F1D4D4;"></i>
+        </div>
+        <div class="other-links">
+           <button id="btn-login"><a href="login.html">Login</a></button>
+           <button id="btn-signup"><a href="signup.html">Sign Up</a></button>
+
+           <i class="fa-solid fa-user" style="color: #F1D4D4;"></i>
+        </div>
+    </div>
+    
+    
+        <nav class="navbar navbar-expand-lg" id="Navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./image/Banner.png" alt="" width="250px" style="border-radius: 10px; height:45px; border-style: solid; border-color: #F1D4D4;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: #F1D4D4;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mybooks.html">My Books</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Genres
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #F1D4D4;">
+                      <li><a class="dropdown-item" href="#">Young Adult</a></li>
+                      <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                      <li><a class="dropdown-item" href="#">Fiction</a></li>
+                      <li><a class="dropdown-item" href="#">Thrillert</a></li>
+                      <li><a class="dropdown-item" href="#">Romance</a></li>
+                      <li><a class="dropdown-item" href="#">Science Fiction</a></li>
+                      <li><a class="dropdown-item" href="#">History</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 10px; background-color: #F1D4D4;">
+                  <button class="btn btn-outline-success" type="submit" id="search-btn"  style="border-radius: 10px; border-width: 2px;">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    
+    </div>
+
+   <div class="container" id="contact">
+    <h1 class="text-center">Contact Us</h1>
+    <div class="row" style="margin-top: 50px;">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <i class="fas fa-phone"> Phone</i>
+                <h6>+0000000000</h6>
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <i class="fa-solid fa-envelope"> Email</i>
+                <h6>example@gmail.com </h6>
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <i class="fa-solid fa-location-dot"> Address</i>
+                <h6>Delhi, India</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+            <input type="text" class="form-control form-control" placeholder="Name">
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <input type="text" class="form-control form-control" placeholder="Email">
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <input type="number" class="form-control form-control" placeholder="Phone">
+        </div>
+        <div class="form-control" style="margin-top: 30px; background-color: #000000;">
+           <textarea name="" id=""rows="5" cols="174" placeholder="Write a message" style="background-color: #000000; color: #C060A1;"></textarea>
+        </div>
+        <div id="messagebtn" class="text-center"><button>Message</button></div>
+       </div>
+   </div>
+
+  
+
+    <footer id="footer" style="margin-top: 50px;">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-content">
+            <h3><strong>Bookmarked</strong></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-content">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md footer-conetnt">
+            <h4>Our Services</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Links</h4>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="twitter"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="twitter"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong>Bookmarked</strong>. All Rights Reserved
+      </div>
+    </div>
+    </footer>
+
+    
+
+
+
+
+  
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

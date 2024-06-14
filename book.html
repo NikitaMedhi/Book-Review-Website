@@ -1,0 +1,439 @@
+<!-- book page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarked</title>
+    <link rel="shortcut icon" type="image" href="./image/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body background="black">
+
+    <div class="top-navbar">
+        <div class="top-icons">
+            <i class="fa-brands fa-twitter" style="color: #F1D4D4;"></i>
+            <i class="fa-brands fa-facebook-f" style="color: #F1D4D4;"></i>
+            <i class="fa-brands fa-instagram" style="color: #F1D4D4;"></i>
+        </div>
+        <div class="other-links">
+           <button id="btn-login"><a href="login.html">Login</a></button>
+           <button id="btn-signup"><a href="signup.html">Sign Up</a></button>
+
+           <i class="fa-solid fa-user" style="color: #F1D4D4;"></i>
+        </div>
+    </div>
+    
+    
+        <nav class="navbar navbar-expand-lg" id="Navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./image/Banner.png" alt="" width="250px" style="border-radius: 10px; height:45px; border-style: solid; border-color: #F1D4D4;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: #F1D4D4;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mybooks.html">My Books</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Genres
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #F1D4D4;">
+                      <li><a class="dropdown-item" href="#">Young Adult</a></li>
+                      <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                      <li><a class="dropdown-item" href="#">Fiction</a></li>
+                      <li><a class="dropdown-item" href="#">Thrillert</a></li>
+                      <li><a class="dropdown-item" href="#">Romance</a></li>
+                      <li><a class="dropdown-item" href="#">Science Fiction</a></li>
+                      <li><a class="dropdown-item" href="#">History</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 10px; background-color: #F1D4D4;">
+                  <button class="btn btn-outline-success" type="submit" id="search-btn" style="border-radius: 10px; border-width: 2px;">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    
+    </div>
+
+    <section id="book">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="d-block w-75" src="./image/topcard1.jpg" alt="" height="100%">
+                </div>
+                <div class="col-md-7">
+                    <h2>Percy Jackson and The Lightning Thief</h2>
+                    <h4>by Rick Riordan</h4>
+                    <br>
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <br>
+                    <p id="review">Percy Jackson is a good kid, but he can't seem to focus on his schoolwork or control his temper. And lately, being away at boarding school is only getting worse-Percy could have sworn his pre-algebra teacher turned into a monster and tried to kill him.</p>
+                    <br>
+                    <h6>Genres: <strong>Fantasy</strong> , <strong>Fiction</strong> , <strong>Mythology</strong> , <strong>Young Adult</strong> ...more</h6>
+                    <p>377 pages</p>
+                    <br>
+                    <p>First published 28 July, 2005</p>
+
+                    <a href="review.html" style="color: #000000; font-weight: bold;">Rate and Write a review</a>
+                    
+                    <div class="buttons">
+                        <div class="btn-group">
+                            <button type="button" class="btn" style="background-color:#C060A1; color: #000000;">Want to Read</button>
+                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000;">
+                              <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Read</a></li>
+                              <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                            </ul>
+                        </div>
+                        <a href="https://www.amazon.in/Percy-Jackson-Lightning-Thief-Book/dp/0141346809" target="_blank" id="amz-btn" style="color: #000000; border-color: #000000; border-width: 2px; font-size: bold;">Buy on Amazon</a>
+
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+    <section id="reviews" style="background-color: #F1D4D4;">
+        <div class="heading">
+            <h4>Reviews</h4>
+        </div>
+
+
+        <div class="review-box-container">
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./image/pfp1.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Meena Singh</strong>
+                            <span>@meena.singh</span>
+                        </div>
+                    </div>
+                    <div class="user-reviews">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt id ut quidem. Nam architecto repellendus quam assumenda excepturi aut, nemo corrupti laboriosam ducimus nostrum aliquam dicta soluta vitae asperiores saepe.</p>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./image/pfp1.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Mikasa Ackerman</strong>
+                            <span>@mika.ackerman</span>
+                        </div>
+                    </div>
+                    <div class="user-reviews">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt id ut quidem. Nam architecto repellendus quam assumenda excepturi aut, nemo corrupti laboriosam ducimus nostrum aliquam dicta soluta vitae asperiores saepe.</p>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./image/pfp1.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Holly West</strong>
+                            <span>@h_west</span>
+                        </div>
+                    </div>
+                    <div class="user-reviews">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt id ut quidem. Nam architecto repellendus quam assumenda excepturi aut, nemo corrupti laboriosam ducimus nostrum aliquam dicta soluta vitae asperiores saepe.</p>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./image/pfp1.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Jack Frost</strong>
+                            <span>@icejack</span>
+                        </div>
+                    </div>
+                    <div class="user-reviews">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt id ut quidem. Nam architecto repellendus quam assumenda excepturi aut, nemo corrupti laboriosam ducimus nostrum aliquam dicta soluta vitae asperiores saepe.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="more-reviews">
+            <p>More reviews...</p>
+        </div>
+    </section>
+
+    <section id="explore-more" style="background-color: #F1D4D4;">
+        <br>
+        <br>
+        <h3 style="color: #000000; margin-left: 110px;">Similar Books</h3>
+        <div class="container" id="top-cards">
+            <div class="row">
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+                  <img src="./image/similar1.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                  <div class="card-body">
+                    <a href="book.html"><h5><strong>Eragon</strong></h5></a>
+                    <h6>by Christopher Paolini</h6>
+                    <div class="book-star" style="color: #C060A1;">
+                      <i class="fa fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <br>
+                    <div class="buttons">
+                      <div class="btn-group">
+                          <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu" style="background-color: #C060A1;">
+                            <li><a class="dropdown-item" href="#">Read</a></li>
+                            <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                          </ul>
+                      </div>
+    
+                  </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+                  <img src="./image/similar2.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                  <div class="card-body">
+                    <a href="book.html"><h5><strong>Catching Fire</strong></h5></a>
+                    <h6>by Suzanne Collins</h6>
+                    <div class="book-star" style="color: #C060A1;">
+                      <i class="fa fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <br>
+                    <div class="buttons">
+                      <div class="btn-group">
+                          <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu" style="background-color: #C060A1;">
+                            <li><a class="dropdown-item" href="#">Read</a></li>
+                            <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                          </ul>
+                      </div>
+    
+                  </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+                  <img src="./image/similar3.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                  <div class="card-body">
+                    <a href="book.html"><h5><strong>The Lion, The Witch and The Wardrobe</strong></h5></a>
+                    <h6>by George C.S Lewis</h6>
+                    <div class="book-star" style="color: #C060A1;">
+                      <i class="fa fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <br>
+                    <div class="buttons">
+                      <div class="btn-group">
+                          <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu" style="background-color: #C060A1;">
+                            <li><a class="dropdown-item" href="#">Read</a></li>
+                            <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                          </ul>
+                      </div>
+    
+                  </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+                  <img src="./image/similar4.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                  <div class="card-body">
+                    <a href="book.html"><h5><strong>Divergent</strong></h5></a>
+                    <h6>by Veronica Roth</h6>
+                    <div class="book-star" style="color: #C060A1;">
+                      <i class="fa fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <br>
+                    <div class="buttons">
+                      <div class="btn-group">
+                          <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu" style="background-color: #C060A1;">
+                            <li><a class="dropdown-item" href="#">Read</a></li>
+                            <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                          </ul>
+                      </div>
+    
+                  </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+          
+            </div>
+          </div>
+          <br>
+          <br>
+    </section>
+
+    <footer id="footer" style=>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-content">
+            <h3><strong>Bookmarked</strong></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-content">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md footer-conetnt">
+            <h4>Our Services</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Links</h4>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="twitter"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="twitter"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong>Bookmarked</strong>. All Rights Reserved
+      </div>
+    </div>
+    </footer>
+
+    
+
+
+
+
+  
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

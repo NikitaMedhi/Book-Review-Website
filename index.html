@@ -1,0 +1,437 @@
+<!-- home page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="bookmarked, website, software, books, book review, reader, reading, paperbacks, author">
+    <meta name="author" content="Nikita Medhi">
+    <title>Bookmarked</title>
+    <link rel="shortcut icon" type="image" href="./image/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="top-navbar">
+        <div class="top-icons">
+            <i class="fa-brands fa-twitter" style="color: #F1D4D4;"></i>
+            <i class="fa-brands fa-facebook-f" style="color: #F1D4D4;"></i>
+            <i class="fa-brands fa-instagram" style="color: #F1D4D4;"></i>
+        </div>
+        <div class="other-links">
+           <button id="btn-login"><a href="login.html">Login</a></button>
+           <button id="btn-signup"><a href="signup.html">Sign Up</a></button>
+
+           <i class="fa-solid fa-user" style="color: #F1D4D4;"></i>
+        </div>
+    </div>
+    
+    
+        <nav class="navbar navbar-expand-lg" id="Navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./image/banner.png" alt="" width="250px" style="border-radius: 10px; height:45px; border-style: solid; border-color: #F1D4D4;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: #F1D4D4;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mybooks.html">My Books</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Genres
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #F1D4D4;">
+                      <li><a class="dropdown-item" href="#">Young Adult</a></li>
+                      <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                      <li><a class="dropdown-item" href="#">Fiction</a></li>
+                      <li><a class="dropdown-item" href="#">Thrillert</a></li>
+                      <li><a class="dropdown-item" href="#">Romance</a></li>
+                      <li><a class="dropdown-item" href="#">Science Fiction</a></li>
+                      <li><a class="dropdown-item" href="#">History</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 10px; background-color: #F1D4D4;">
+                  <button class="btn btn-outline-success" type="submit" id="search-btn" style="border-radius: 10px; border-width: 2px;">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    
+    </div>
+
+    <section class="home" style="background-color: #C060A1;">
+      <div class="content">
+          <h3>Discover your love for reading</h3>
+          <button id="explore">Explore</button>
+      </div>
+      <div class="img">
+          <img src="./image/bg.png" alt="">
+      </div>
+
+  </section>
+
+    <section style="background-color: #F1D4D4;">
+      <br>
+      <h3 style="margin-left: 110px; color: #000000;">New Releases</h3>
+      <div class="container" id="top-cards">
+        <div class="row">
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+              <img src="./image/topcard1.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+              <div class="card-body">
+                <a href="book.html"><h5><strong>Percy Jackson and The Lightning Thief</strong></h5></a>
+                <h6>by Rick Riordan</h6>
+                <div class="book-star" style="color: #C060A1;">
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <br>
+                <div class="buttons">
+                  <div class="btn-group">
+                      <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                      <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" style="background-color: #C060A1;">
+                        <li><a class="dropdown-item" href="#">Read</a></li>
+                        <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                      </ul>
+                  </div>
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+              <img src="./image/topcard2.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+              <div class="card-body">
+                <a href="book.html"><h5><strong>The Hunger Games</strong></h5></a>
+                <h6>by Suzanne Collins</h6>
+                <div class="book-star" style="color: #C060A1;">
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <br>
+                <div class="buttons">
+                  <div class="btn-group">
+                      <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                      <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" style="background-color: #C060A1;">
+                        <li><a class="dropdown-item" href="#">Read</a></li>
+                        <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                      </ul>
+                  </div>
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+              <img src="./image/topcard3.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+              <div class="card-body">
+                <a href="book.html"><h5><strong>A Game of Thrones</strong></h5></a>
+                <h6>by George R R Martin</h6>
+                <div class="book-star" style="color: #C060A1;">
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <br>
+                <div class="buttons">
+                  <div class="btn-group">
+                      <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                      <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" style="background-color: #C060A1;">
+                        <li><a class="dropdown-item" href="#">Read</a></li>
+                        <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                      </ul>
+                  </div>
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+              <img src="./image/topcard4.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+              <div class="card-body">
+                <a href="book.html"><h5><strong>The Maze Runner</strong></h5></a>
+                <h6>by James Dashner</h6>
+                <div class="book-star" style="color: #C060A1;">
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <br>
+                <div class="buttons">
+                  <div class="btn-group">
+                      <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                      <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" style="background-color: #C060A1;">
+                        <li><a class="dropdown-item" href="#">Read</a></li>
+                        <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                      </ul>
+                  </div>
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      
+        </div>
+      </div>
+
+      <div class="container" id="top-cards">
+        <h3 style="color: #000000;">Top Trending in Fantasy</h3>
+        <div class="row">
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+              <img src="./image/fantasy1.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+              <div class="card-body">
+                <a href="book.html"><h5><strong>Ballad of Songbirds and Snakes</strong></h5></a>
+                <h6>by Suzanne Collins</h6>
+                <div class="book-star" style="color: #C060A1;">
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <br>
+                <div class="buttons">
+                  <div class="btn-group">
+                      <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                      <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" style="background-color: #C060A1;">
+                        <li><a class="dropdown-item" href="#">Read</a></li>
+                        <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                      </ul>
+                  </div>
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+              <img src="./image/fantasy2.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+              <div class="card-body">
+                <a href="book.html"><h5><strong>Six of Crows</strong></h5></a>
+                <h6>by Leah Bardugo</h6>
+                <div class="book-star" style="color: #C060A1;">
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <br>
+                <div class="buttons">
+                  <div class="btn-group">
+                      <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                      <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" style="background-color: #C060A1;">
+                        <li><a class="dropdown-item" href="#">Read</a></li>
+                        <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                      </ul>
+                  </div>
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+              <img src="./image/fantasy3.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+              <div class="card-body">
+                <a href="book.html"><h5><strong>The Lord of the Rings</strong></h5></a>
+                <h6>by J.R.R Tolkien</h6>
+                <div class="book-star" style="color: #C060A1;">
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <br>
+                <div class="buttons">
+                  <div class="btn-group">
+                      <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                      <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" style="background-color: #C060A1;">
+                        <li><a class="dropdown-item" href="#">Read</a></li>
+                        <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                      </ul>
+                  </div>
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" style="width: 15rem; background-color: #000000; border-radius: 20px;">
+              <img src="./image/fantasy4.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+              <div class="card-body">
+                <a href="book.html"><h5><strong>Harry Potter and The Deathly Hallows </strong></h5></a>
+                <h6>by J.K Rowling</h6>
+                <div class="book-star" style="color: #C060A1;">
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <br>
+                <div class="buttons">
+                  <div class="btn-group">
+                      <button type="button" class="btn" style="background-color:#C060A1; color: #000000; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">Want to Read</button>
+                      <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #C060A1; color: #000000; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" style="background-color: #C060A1;">
+                        <li><a class="dropdown-item" href="#">Read</a></li>
+                        <li><a class="dropdown-item" href="#">Currently Reading</a></li>
+                      </ul>
+                  </div>
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      
+        </div>
+      </div>
+  
+      
+  
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image/banner1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/banner3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <footer id="footer" style="margin-top: 0px;">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-content">
+            <h3 style="font-weight: bold;">Bookmarked</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-content">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md footer-conetnt">
+            <h4>Our Services</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Links</h4>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="twitter"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="twitter"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong>Bookmarked</strong>. All Rights Reserved
+      </div>
+    </div>
+    </footer>
+
+    
+
+
+
+
+  
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
