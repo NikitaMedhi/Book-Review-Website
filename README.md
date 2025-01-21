@@ -17,4 +17,24 @@ A simple Book Review Website built using **HTML**, **CSS**, and **Bootstrap**. T
 
 - **HTML**: For structuring the content.  
 - **CSS**: For custom styling.  
-- **Bootstrap**: For layout and responsiveness.  
+- **Bootstrap**: For layout and responsiveness.
+
+## Screenshots 
+
+### Homepage
+![Homepage](assets/screenshots/Screenshot (243).png)  
+
+---
+
+### Book Details
+![Book Details](assets/screenshots/Screenshot (248).png)  
+
+---
+
+### User's Book Details
+![User's Book Details](assets/screenshots/Screenshot (253).png)
+
+---
+
+### Login/Sign Up Page
+![Login/Sign Up Page](assets/screenshots/Screenshot (257).png)
